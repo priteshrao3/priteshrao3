@@ -24,7 +24,6 @@ https://pritans.pythonanywhere.com/
 ### electionsmanagement
 https://www.electionsmanagement.com/
 
-### svsystechonline
 
 > Note: For more details about my private projects, feel free to contact me directly!
 
