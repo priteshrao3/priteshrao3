@@ -1,16 +1,33 @@
-## Hi there 👋
+# Hi there, I'm Pritesh Prasad 👋
 
-<!--
-**priteshrao3/priteshrao3** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Welcome to my GitHub profile! Here are some of my projects:
 
-Here are some ideas to get you started:
+## Public Projects
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### [Project 1](https://github.com/priteshrao3/cid)
+A brief description of Project 1. This project focuses on...
+
+### [Project 2](https://github.com/priteshrao3/project2)
+A brief description of Project 2. It includes features such as...
+
+### [Project 3](https://github.com/priteshrao3/project3)
+A brief description of Project 3. Technologies used include...
+
+## Private Projects
+
+### Project A
+A brief description of Project A. This project involves...
+
+### Project B
+A brief description of Project B. It is designed to...
+
+### Project C
+A brief description of Project C. Key features include...
+
+> Note: For more details about my private projects, feel free to contact me directly!
+
+## Contact
+
+- [LinkedIn](https://www.linkedin.com/in/priteshrao3)
+- [Twitter](https://twitter.com/priteshrao3)
+- [Email](mailto:yourname@example.com)
