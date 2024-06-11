@@ -8,7 +8,7 @@ Welcome to my GitHub profile! Here are some of my projects:
 https://www.bkarogyam.com/
 
 
-### arogyabhara
+### arogyabharat
 https://arogya.bkarogyam.com/
 
 ### prwebtechnoapis
