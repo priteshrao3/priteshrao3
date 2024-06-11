@@ -4,19 +4,29 @@ Welcome to my GitHub profile! Here are some of my projects:
 
 ## Private Projects
 
-### Project A
-A brief description of Project A. This project involves...
+### bkarogyam
+https://www.bkarogyam.com/
 
-### Project B
-A brief description of Project B. It is designed to...
+### prwebtechnoapis
+https://pritans.pythonanywhere.com/apis/
 
-### Project C
-A brief description of Project C. Key features include...
+### prwebtechno 
+https://www.prwebtechno.com/
+
+### mindforge  
+https://pritans.pythonanywhere.com/
+
+
+### electionsmanagement
+https://www.electionsmanagement.com/
+
+### svsystechonline
 
 > Note: For more details about my private projects, feel free to contact me directly!
 
 ## Contact
 
-- [LinkedIn](https://www.linkedin.com/in/priteshrao3)
-- [Twitter](https://twitter.com/priteshrao3)
-- [Email](mailto:yourname@example.com)
+- [WhatsApp](https://wa.me/message/IPNAQPOXX6FJO1?src=qr)
+- [LinkedIn]([https://www.linkedin.com/in/priteshrao3](https://www.linkedin.com/in/pritesh-prasad-242390176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app))
+- [FaceBoock]([[https://twitter.com/priteshrao3](https://www.facebook.com/share/DqLkTchZWGeffQP6/?mibextid=LQQJ4d](https://www.facebook.com/share/DqLkTchZWGeffQP6/?mibextid=LQQJ4d)))
+- [Email](mailto:priteshrao3@gmail.com)
