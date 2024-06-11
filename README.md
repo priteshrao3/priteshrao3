@@ -27,6 +27,6 @@ https://www.electionsmanagement.com/
 ## Contact
 
 - [WhatsApp](https://wa.me/message/IPNAQPOXX6FJO1?src=qr)
-- [LinkedIn]([https://www.linkedin.com/in/priteshrao3](https://www.linkedin.com/in/pritesh-prasad-242390176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app))
-- [FaceBoock]([[https://twitter.com/priteshrao3](https://www.facebook.com/share/DqLkTchZWGeffQP6/?mibextid=LQQJ4d](https://www.facebook.com/share/DqLkTchZWGeffQP6/?mibextid=LQQJ4d)))
+- [LinkedIn](https://www.linkedin.com/in/pritesh-prasad-242390176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
+- [FaceBoock](https://www.facebook.com/share/DqLkTchZWGeffQP6/?mibextid=LQQJ4d)
 - [Email](mailto:priteshrao3@gmail.com)
