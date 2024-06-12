@@ -36,7 +36,25 @@ This project demonstrates my ability to build robust, user-friendly web applicat
 
 
 ### arogyabharat
-https://arogya.bkarogyam.com/
+Developed and Maintained https://arogya.bkarogyam.com/
+
+I successfully developed and maintained the website for B.K. Arogyam's medical professionals portal, enhancing the functionality and user experience for doctors and advisors associated with the hospital. This platform offers a wide range of features designed to facilitate seamless operations and engagement, including:
+
+    Doctor Dashboard: Doctors can access comprehensive hospital information and log in to their personalized dashboards. Here, they can view appointed patients, manage treatments, track commissions, purchase medicine for patients, and sell products on a commission basis.
+    New Doctor Registration: Facilitates the registration of new doctors, with an integrated system for commission tracking and management.
+    Advisor Portal: Advisors can log in to add new advisors, view their team, add patients, see patient lists, track their balance and commissions, access transaction history, and manage patient information.
+
+Technologies and Tools Used:
+
+    Backend Framework: Django REST framework for building robust APIs.
+    Frontend Framework: Next.js for server-side rendering and optimized performance.
+    UI Components: Ant Design for a clean and professional user interface.
+    Styling: Tailwind CSS for efficient and responsive design.
+    Image Slider: Swiper for implementing interactive image sliders.
+    Image Storage: BigBucket for secure and scalable image storage.
+    Hosting: DigitalOcean for reliable and high-performance hosting.
+
+This project showcases my ability to integrate multiple technologies to create a comprehensive, user-friendly portal that enhances the workflow and efficiency of medical professionals and advisors.
 
 ### prwebtechnoapis
 https://pritans.pythonanywhere.com/apis/
