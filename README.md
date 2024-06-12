@@ -6,6 +6,7 @@ Welcome to my GitHub profile! Here are some of my projects:
 
 ### bkarogyam
 https://www.bkarogyam.com/
+is a Kidney Ayurvedic hospital website where patients can view all hospital details, book appointments, and book consultation services such as clinic consultation, video consultation, phone consultation, and bed booking. Doctors can register to join this hospital, patients can purchase medicine, and people can apply for a franchise. Users can read the hospital prospectus like a book and download the PDF. Candidates can apply for career opportunities, and employees can view department-wise training videos and access all login portals on this site.
 
 
 ### arogyabharat
@@ -23,6 +24,9 @@ https://pritans.pythonanywhere.com/
 
 ### electionsmanagement
 https://www.electionsmanagement.com/
+
+
+## Public Projects
 
 
 > Note: For more details about my private projects, feel free to contact me directly!
