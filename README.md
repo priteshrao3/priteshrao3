@@ -1,169 +1,532 @@
-# Hi there, I'm Pritesh Prasad
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pritesh Prasad - Full Stack Developer</title>
+    <style>
+        :root {
+            --primary-color: #2d4b8e;
+            --secondary-color: #47b475;
+            --accent-color: #ff6b6b;
+            --light-color: #f8f9fa;
+            --dark-color: #343a40;
+            --text-color: #333;
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f5f7f9;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background: linear-gradient(135deg, var(--primary-color), #1e3261);
+            color: white;
+            padding: 60px 0;
+            text-align: center;
+        }
+        
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid rgba(255, 255, 255, 0.3);
+            margin-bottom: 20px;
+            object-fit: cover;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        .tagline {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 20px;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .social-link {
+            color: white;
+            text-decoration: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            background-color: rgba(255, 255, 255, 0.2);
+            transition: var(--transition);
+        }
+        
+        .social-link:hover {
+            background-color: rgba(255, 255, 255, 0.3);
+            transform: translateY(-2px);
+        }
+        
+        section {
+            padding: 60px 0;
+        }
+        
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+            color: var(--primary-color);
+            position: relative;
+        }
+        
+        .section-title::after {
+            content: '';
+            display: block;
+            width: 60px;
+            height: 3px;
+            background-color: var(--secondary-color);
+            margin: 10px auto;
+        }
+        
+        .summary {
+            background-color: white;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 30px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        
+        .skill-category {
+            background-color: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+        
+        .skill-category h3 {
+            color: var(--primary-color);
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .skill-list {
+            list-style-type: none;
+        }
+        
+        .skill-list li {
+            padding: 8px 0;
+            border-bottom: 1px solid #f5f5f5;
+            display: flex;
+            align-items: center;
+        }
+        
+        .skill-list li:before {
+            content: "▹";
+            color: var(--secondary-color);
+            margin-right: 10px;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .project-card {
+            background-color: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .project-content {
+            padding: 20px;
+        }
+        
+        .project-title {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+        
+        .project-description {
+            margin-bottom: 15px;
+            font-size: 0.95rem;
+        }
+        
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-bottom: 15px;
+        }
+        
+        .tech-tag {
+            background-color: #e9ecef;
+            color: var(--dark-color);
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+        }
+        
+        .project-link {
+            display: inline-block;
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+        
+        .project-link:hover {
+            color: var(--primary-color);
+        }
+        
+        .experience-item {
+            background-color: white;
+            border-radius: 8px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            margin-bottom: 20px;
+        }
+        
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 15px;
+        }
+        
+        .company {
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+        
+        .date {
+            color: #6c757d;
+            font-size: 0.9rem;
+        }
+        
+        .position {
+            font-style: italic;
+            margin-bottom: 10px;
+        }
+        
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+        
+        @media (max-width: 768px) {
+            .skills-grid, .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .experience-header {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- Placeholder for profile image - replace with actual image URL -->
+            <img src="https://via.placeholder.com/150" alt="Pritesh Prasad" class="profile-img">
+            <h1>Pritesh Prasad</h1>
+            <p class="tagline">Full Stack Developer | Django | Next.js | Flutter | DevOps</p>
+            <div class="social-links">
+                <a href="https://wa.me/message/IPNAQPOXX6FJO1?src=qr" class="social-link">WhatsApp</a>
+                <a href="https://www.linkedin.com/in/pritesh-prasad-242390176" class="social-link">LinkedIn</a>
+                <a href="https://www.facebook.com/share/DqLkTchZWGeffQP6/" class="social-link">Facebook</a>
+                <a href="mailto:priteshrao3@gmail.com" class="social-link">Email</a>
+            </div>
+        </div>
+    </header>
 
-Welcome to my GitHub profile! Here are some of my projects:
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="summary">
+                <p>Experienced Full Stack Developer with over 3+ years of experience in designing, developing, and deploying scalable web and mobile applications. Proficient in both frontend and backend development with strong command over Python, Django, Next.js, Flutter, and RESTful APIs. Skilled in cloud deployments, containerization, and performance optimization. Passionate about creating clean, maintainable code and user-centric digital solutions.</p>
+            </div>
+        </div>
+    </section>
 
-## Private Projects
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Languages & Frameworks</h3>
+                    <ul class="skill-list">
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Dart</li>
+                        <li>HTML/CSS</li>
+                        <li>Django</li>
+                        <li>Django REST Framework</li>
+                        <li>FastAPI</li>
+                        <li>Next.js</li>
+                        <li>Flutter</li>
+                        <li>Bootstrap</li>
+                        <li>Tailwind CSS</li>
+                        <li>Ant Design</li>
+                        <li>GraphQL</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Mobile Development</h3>
+                    <ul class="skill-list">
+                        <li>Flutter (Cross-platform)</li>
+                        <li>Firebase Integration</li>
+                        <li>State Management (GetX)</li>
+                    </ul>
+                    
+                    <h3>Backend & API</h3>
+                    <ul class="skill-list">
+                        <li>REST APIs</li>
+                        <li>GraphQL</li>
+                        <li>WebSockets</li>
+                        <li>JWT/OAuth Authentication</li>
+                        <li>Celery</li>
+                        <li>Redis Queue</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <ul class="skill-list">
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>MongoDB</li>
+                        <li>SQLite</li>
+                        <li>Redis</li>
+                    </ul>
+                    
+                    <h3>DevOps & Cloud</h3>
+                    <ul class="skill-list">
+                        <li>Docker</li>
+                        <li>Kubernetes</li>
+                        <li>AWS (EC2, S3)</li>
+                        <li>Azure</li>
+                        <li>Google Cloud</li>
+                        <li>DigitalOcean</li>
+                        <li>Vercel</li>
+                        <li>PythonAnywhere</li>
+                        <li>VPS Hosting</li>
+                        <li>Nginx</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Tools & Technologies</h3>
+                    <ul class="skill-list">
+                        <li>Git, GitHub, GitLab</li>
+                        <li>GitHub Actions</li>
+                        <li>Linux (Ubuntu, Kali)</li>
+                        <li>Bash/Shell Scripting</li>
+                        <li>Selenium</li>
+                        <li>Postman</li>
+                        <li>Swagger</li>
+                        <li>Alembic</li>
+                        <li>Sentry</li>
+                        <li>Google Docs API</li>
+                        <li>OpenAI/ChatGPT API</li>
+                        <li>Apache Kafka</li>
+                        <li>RabbitMQ</li>
+                        <li>Zookeeper</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
-### bkarogyam
-Developed and Maintained https://www.bkarogyam.com/
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="company">BK Arogyam Pvt. Ltd., Varanasi</span>
+                    <span class="date">Oct 2022 – Present</span>
+                </div>
+                <div class="position">Full Stack Developer</div>
+                <ul class="skill-list">
+                    <li>Led development of scalable web applications and ERP systems tailored for the healthcare domain</li>
+                    <li>Created dynamic frontend interfaces with Next.js, Tailwind CSS, and integrated with Django/FastAPI backends</li>
+                    <li>Built and maintained RESTful APIs and asynchronous services using Celery and Redis</li>
+                    <li>Implemented authentication systems, role-based access control, and data security practices</li>
+                    <li>Managed Docker-based deployment, Nginx configuration, and cloud hosting on AWS and DigitalOcean</li>
+                    <li>Collaborated on the development and deployment of multiple Flutter-based mobile apps</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="company">Techavera Solutions Pvt. Ltd., Noida</span>
+                    <span class="date">May 2022 – July 2022</span>
+                </div>
+                <div class="position">Python Web Developer Intern</div>
+                <ul class="skill-list">
+                    <li>Built Django web applications with authentication and database integration</li>
+                    <li>Worked on CRUD-based modules, admin customizations, and deployment procedures</li>
+                    <li>Gained foundational experience in REST API development and Django architecture</li>
+                </ul>
+            </div>
+            
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="company">SVS Tech Online</span>
+                    <span class="date">2018 – 2021</span>
+                </div>
+                <div class="position">Email Marketing Specialist</div>
+                <ul class="skill-list">
+                    <li>4 years of experience in email marketing campaigns and strategies</li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-I successfully developed and maintained the website for B.K. Arogyam, a renowned Kidney Ayurvedic hospital, leveraging the Django framework and a suite of modern web technologies. The website offers a comprehensive suite of features designed to enhance patient and staff engagement, including:
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">BK Arogyam</h3>
+                        <p class="project-description">Developed and maintained the website for B.K. Arogyam, a renowned Kidney Ayurvedic hospital using Django framework.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                        <a href="https://www.bkarogyam.com/" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Arogya Bharat</h3>
+                        <p class="project-description">Medical professionals portal for doctors and advisors with doctor dashboard, registration, and commission tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django REST</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Ant Design</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                        <a href="https://arogya.bkarogyam.com/" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">PR Web Techno</h3>
+                        <p class="project-description">Digital marketing websites providing services, pricing details, and online payments with PayPal integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">PayPal API</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                        </div>
+                        <a href="https://www.prwebtechno.com/" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">MindForge</h3>
+                        <p class="project-description">Tech blog platform with user reviews, ratings, and social sharing capabilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">Ant Design</span>
+                            <span class="tech-tag">WebSockets</span>
+                        </div>
+                        <a href="https://pritans.pythonanywhere.com/" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Elections Management</h3>
+                        <p class="project-description">Comprehensive election management platform with information hub and campaign booking system.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">AWS</span>
+                        </div>
+                        <a href="https://www.electionsmanagement.com/" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-content">
+                        <h3 class="project-title">Healthcare ERP</h3>
+                        <p class="project-description">Comprehensive Healthcare ERP platform to streamline hospital operations including patient management, billing, and analytics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">Next.js</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">Docker</span>
+                        </div>
+                        <a href="https://erp.bkarogyam.com/" class="project-link">View Project</a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
 
-    Patient Services: Patients can easily view detailed information about the hospital, book appointments, and schedule various consultation services (clinic, video, phone, and bed booking).
-    Doctor Registration: A streamlined registration process for doctors wishing to join the hospital's network.
-    Online Pharmacy: Patients can purchase medicines directly through the website.
-    Franchise Applications: Individuals interested in partnering with the hospital can apply for a franchise.
-    Hospital Prospectus: Users can read the hospital prospectus in a book-like format and download it as a PDF.
-    Career Opportunities: Candidates can explore and apply for various career opportunities within the hospital.
-    Employee Resources: Employees have access to department-wise training videos and various login portals for seamless operations.
+    <section id="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="experience-item">
+                <div class="experience-header">
+                    <span class="company">Allahabad College of Engineering & Management</span>
+                    <span class="date">2017</span>
+                </div>
+                <div class="position">Diploma in Computer Science</div>
+            </div>
+        </div>
+    </section>
 
-Technologies and Tools Used:
-
-    Backend Framework: Django 5.0.6
-    Asynchronous Support: asgiref 3.8.1
-    Database Management: sqlparse 0.5.0
-    Rich Text Editors: django-ckeditor 6.7.1 and django-tinymce 4.0.0 for enhanced content management
-    Admin Interface Customization: django-material-admin 1.8.6
-    Media Handling: django-webp-converter 0.3.0 for optimized image delivery, and pillow 10.3.0 for image processing
-    Static File Management: whitenoise 6.6.0 for efficient static file serving
-    REST API Development: djangorestframework 3.15.1
-    HTTP Requests: requests 2.32.2 and urllib3 2.2.1 for robust API integrations
-    Character Encoding: charset-normalizer 3.3.2
-    SSL Certificates: certifi 2024.2.2
-    International Domain Names Handling: idna 3.7
-
-This project demonstrates my ability to build robust, user-friendly web applications with a focus on performance, security, and scalability, ensuring a seamless experience for both end-users and administrative staff.
-
-
-### arogyabharat
-Developed and Maintained https://arogya.bkarogyam.com/
-
-I successfully developed and maintained the website for B.K. Arogyam's medical professionals portal, enhancing the functionality and user experience for doctors and advisors associated with the hospital. This platform offers a wide range of features designed to facilitate seamless operations and engagement, including:
-
-    Doctor Dashboard: Doctors can access comprehensive hospital information and log in to their personalized dashboards. Here, they can view appointed patients, manage treatments, track commissions, purchase medicine for patients, and sell products on a commission basis.
-    New Doctor Registration: Facilitates the registration of new doctors, with an integrated system for commission tracking and management.
-    Advisor Portal: Advisors can log in to add new advisors, view their team, add patients, see patient lists, track their balance and commissions, access transaction history, and manage patient information.
-
-Technologies and Tools Used:
-
-    Backend Framework: Django REST framework for building robust APIs.
-    Frontend Framework: Next.js for server-side rendering and optimized performance.
-    UI Components: Ant Design for a clean and professional user interface.
-    Styling: Tailwind CSS for efficient and responsive design.
-    Image Slider: Swiper for implementing interactive image sliders.
-    Image Storage: BigBucket for secure and scalable image storage.
-    Hosting: DigitalOcean for reliable and high-performance hosting.
-
-This project showcases my ability to integrate multiple technologies to create a comprehensive, user-friendly portal that enhances the workflow and efficiency of medical professionals and advisors.
-
-
-### prwebtechno 
-Developed and Maintained https://pritans.pythonanywhere.com/apis/ and https://www.prwebtechno.com/
-
-I successfully developed and maintained the digital marketing websites for prwebtechno, which provide comprehensive digital marketing services, pricing details, and easy online payments. These platforms offer various features designed to streamline client interactions and service delivery, including:
-
-    Digital Marketing Services: Customers can explore a wide range of digital marketing services and view detailed pricing information.
-    Website Audit Reports: Users can request and receive detailed website audit reports to assess their online presence and performance.
-    Service Booking: Clients can easily book services directly through the website.
-    Online Payments: Integrated PayPal functionality ensures secure and convenient payment processing.
-
-Technologies and Tools Used:
-
-    Backend Framework: Django 5.0.6 for robust backend development
-        Asynchronous Support: asgiref 3.8.1
-        Database Management: sqlparse 0.5.0
-        Rich Text Editors: django-ckeditor 6.7.1 and django-tinymce 4.0.0 for enhanced content management
-        Admin Interface Customization: django-material-admin 1.8.6
-        Media Handling: django-webp-converter 0.3.0 for optimized image delivery, and pillow 10.3.0 for image processing
-        Static File Management: whitenoise 6.6.0 for efficient static file serving
-        REST API Development: djangorestframework 3.15.1 for creating robust APIs
-        HTTP Requests: requests 2.32.2 and urllib3 2.2.1 for robust API integrations
-        Character Encoding: charset-normalizer 3.3.2
-        SSL Certificates: certifi 2024.2.2
-        International Domain Names Handling: idna 3.7
-
-    Frontend Framework: Next.js for server-side rendering and optimized performance
-
-    UI Components: Ant Design for a clean and professional user interface
-
-    Styling: Tailwind CSS for efficient and responsive design
-
-    Image Slider: Swiper for implementing interactive image sliders
-
-This project demonstrates my ability to build user-friendly, secure, and high-performance web applications that effectively support digital marketing operations and enhance client interactions.
-
-### mindforge  
-Developed and Maintained https://pritans.pythonanywhere.com/
-
-I successfully developed and maintained the blog site for MindForge, a platform dedicated to sharing crucial tech information and fostering a community of tech enthusiasts. This site offers a range of features to enhance user engagement and information sharing, including:
-
-    Tech Information: Users can access the latest and most important tech information.
-    Reviews and Ratings: Visitors can write reviews and give star ratings to blog posts, fostering an interactive and evaluative community.
-    Social Sharing: Users can share informative blogs with their friends, promoting the spread of valuable tech insights.
-
-Technologies and Tools Used:
-
-    Backend Framework: Django 5.0.6 for a robust and scalable backend
-        Asynchronous Support: asgiref 3.8.1 for handling asynchronous tasks
-        Database Management: sqlparse 0.5.0 for efficient database queries
-        Rich Text Editors: django-ckeditor 6.7.1 and django-tinymce 4.0.0 for enhanced content management
-        Admin Interface Customization: django-material-admin 1.8.6 for a modern and user-friendly admin interface
-        Media Handling: django-webp-converter 0.3.0 and pillow 10.3.0 for optimized image delivery and processing
-        Static File Management: whitenoise 6.6.0 for efficient static file serving
-        REST API Development: djangorestframework 3.15.1 for creating robust APIs
-        HTTP Requests: requests 2.32.2 and urllib3 2.2.1 for robust API integrations
-        Character Encoding: charset-normalizer 3.3.2 for handling text encoding
-        SSL Certificates: certifi 2024.2.2 for secure communications
-        International Domain Names Handling: idna 3.7 for handling internationalized domain names
-
-    Frontend Framework: Next.js for server-side rendering and optimized performance
-
-    UI Components: Ant Design for a clean and professional user interface
-
-    Styling: Tailwind CSS for efficient and responsive design
-
-    Image Slider: Swiper for implementing interactive image sliders
-
-This project showcases my ability to build a dynamic, user-friendly blog platform that supports user interaction, content sharing, and community engagement.
-
-
-### electionsmanagement
-Developed and Maintained https://www.electionsmanagement.com/
-I am thrilled to have played a pivotal role in developing and maintaining the Elections Management website (https://www.electionsmanagement.com/). This platform serves as a comprehensive solution for election management and strategic campaigning, offering a range of features to empower political campaigns and inform stakeholders about electoral processes.
-
-What You'll Discover:
-
-    State-of-the-Art Information Hub: Dive into a treasure trove of election information, from state-specific election timings to the intricate details of seat allocations. Stay ahead of the curve with real-time updates on upcoming electoral events.
-
-    Strategic Campaign Booking: Unlock the power of strategic campaigning by effortlessly booking appointments for politicians to kickstart their campaigns. Our intuitive platform streamlines the entire process, ensuring your campaign hits the ground running.
-
-    Data-Driven Insights: Leverage data-driven insights to craft winning campaign strategies. Understand seat distributions, analyze trends, and make informed decisions that resonate with voters.
-
-Technologies That Drive Us:
-
-    Frontend Mastery: HTML, CSS, and Bootstrap create a visually stunning and responsive user interface that captivates and engages visitors.
-
-    Dynamic Functionality: Harness the power of JavaScript and Ajax to deliver dynamic and interactive features that keep users coming back for more.
-
-    Backend Brilliance: Django powers our robust backend, ensuring seamless performance and reliability.
-
-    Content Excellence: Elevate your content with django-ckeditor for rich text editing and pillow for stunning image processing.
-
-    Efficient Management: Simplify administrative tasks with django-material-admin, making backend management a breeze.
-
-    Optimized Hosting: AWS provides the reliable and scalable hosting infrastructure that powers our platform's performance.
-
-At Elections Management, we don't just manage elections; we redefine them. Join us in shaping the future of political campaigning and leave a lasting impact on the political landscape.
-
-
-## Public Projects
-
-
-> Note: For more details about my private projects, feel free to contact me directly!
-
-## Contact
-
-- [WhatsApp](https://wa.me/message/IPNAQPOXX6FJO1?src=qr)
-- [LinkedIn](https://www.linkedin.com/in/pritesh-prasad-242390176?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app)
-- [FaceBoock](https://www.facebook.com/share/DqLkTchZWGeffQP6/?mibextid=LQQJ4d)
-- [Email](mailto:priteshrao3@gmail.com)
+    <footer>
+        <div class="container">
+            <p>© 2023 Pritesh Prasad. All rights reserved.</p>
+            <p>Contact: priteshrao3@gmail.com | +91-9170475552</p>
+        </div>
+    </footer>
+</body>
+</html>
