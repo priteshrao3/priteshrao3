@@ -1,4 +1,4 @@
-# Hi there, I'm Pritesh Prasad 👋
+# Hi there, I'm Pritesh Prasad
 
 Welcome to my GitHub profile! Here are some of my projects:
 
