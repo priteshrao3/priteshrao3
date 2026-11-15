@@ -98,6 +98,8 @@
 | Software Engineer (Team Lead, 8–10 devs) | DGLYF Innovation Pvt. Ltd., Noida | Oct 2025 – May 2026 |
 | Full Stack Developer | BK Arogyam Pvt. Ltd., Varanasi | Oct 2022 – Oct 2025 |
 | Python Developer Intern | Techavera Solutions Pvt. Ltd., Noida | May 2022 – Jul 2022 |
+| Email Marketing Specialist, then Python Developer Intern | Svsystechonline | 2019 – Feb 2022 |
+| Digital Marketing Specialist | Ecrulogic Technologies | 2018 – 2019 |
 
 🎓 **B.Tech**, J.S. University (2022) · **Diploma in Computer Science**, Allahabad College of Engineering and Management (2017)
 
