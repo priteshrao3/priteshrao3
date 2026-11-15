@@ -17,7 +17,7 @@
 ## 🧠 About me
 
 - **4+ years** building production systems for healthcare and fintech, and a former **team lead of 8–10 developers** on fintech platforms handling ₹50 lakh–1 crore in transactions.
-- Currently building **LLM agents** at **BK Arogyam**: a RAG and tool-calling health-report agent, a WhatsApp agent that books appointments and a real-time voice assistant on LiveKit.
+- Currently **IT Head at BK Arogyam**, leading a team of 5 and building **LLM agents**: a RAG and tool-calling health-report agent, a WhatsApp agent that books appointments and a real-time voice assistant on LiveKit.
 - Focused on **Generative AI**: LLM integration, AI agents, voice AI and real-time systems.
 - **5 Flutter apps** shipped to Google Play (2,000+ downloads), and **50+ projects** delivered across web, mobile and backend.
 
@@ -94,7 +94,7 @@
 
 | Role | Company | Period |
 |---|---|---|
-| Full Stack Developer | BK Arogyam Pvt. Ltd., Varanasi | Aug 2026 – Present |
+| IT Head · Lead AI and Backend Engineer (team of 5) | BK Arogyam Pvt. Ltd., Varanasi | Aug 2026 – Present |
 | Software Engineer (Team Lead, 8–10 devs) | DGLYF Innovation Pvt. Ltd., Noida | Oct 2025 – May 2026 |
 | Full Stack Developer | BK Arogyam Pvt. Ltd., Varanasi | Oct 2022 – Oct 2025 |
 | Python Developer Intern | Techavera Solutions Pvt. Ltd., Noida | May 2022 – Jul 2022 |
