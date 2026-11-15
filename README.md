@@ -9,7 +9,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/pritesh-prasad-242390176"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:priteshrao3@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.prwebtechno.com/"><img src="https://img.shields.io/badge/Website-111827?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
   <a href="https://wa.me/message/IPNAQPOXX6FJO1?src=qr"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
 </p>
 
@@ -17,21 +16,22 @@
 
 ## 🧠 About me
 
-- **4+ years** building production systems for healthcare and fintech, and a former **team lead** who has owned system design, code reviews and deployment.
-- Currently building Python services for the hospital ERP and telemedicine platforms at **BK Arogyam**.
+- **4+ years** building production systems for healthcare and fintech, and a former **team lead of 8–10 developers** on fintech platforms handling ₹50 lakh–1 crore in monthly transactions.
+- Currently **IT Head at BK Arogyam**, leading a team of 5 and building **LLM agents**: a RAG and tool-calling health-report agent, a WhatsApp agent that books appointments and a real-time voice assistant on LiveKit.
 - Focused on **Generative AI**: LLM integration, AI agents, voice AI and real-time systems.
-- **5 Flutter apps** shipped to Google Play, and **50+ projects** delivered across web, mobile and backend.
+- **5 Flutter apps** shipped to Google Play (2,000+ downloads), and **50+ projects** delivered across web, mobile and backend.
 
 ## 🚀 What I'm building
 
 | Project | What it does | Stack |
 |---|---|---|
-| **Callixai** | Self-hosted AI phone agent that answers and places real calls in Hinglish and can be interrupted mid-sentence. It costs about **₹2/min**, against ₹15–20 on an ElevenLabs + Twilio + GPT stack, and includes a multi-tenant console with wallets and per-call logs. | Groq Llama 3.3 70B · Deepgram · Dograh · Node.js · Docker |
+| **Healthcare AI Agents** (BK Arogyam) | A health-report agent that reads body-scan images, uses vector-store RAG and ERP tools to build prescriptions from live inventory and generate PDF reports. Also a WhatsApp booking agent and a LiveKit voice assistant whose tools load from Django at runtime. | OpenAI Responses and Realtime APIs · LiveKit Agents · Django · Celery |
+| **Callixai** | AI voice-agent platform that answers and places real calls in Hinglish and can be interrupted mid-sentence. First audio in about **1.7 s**, at about **₹2/min** against ₹15–20 on an ElevenLabs + Twilio + GPT stack. A **RAG knowledge base** lets agents answer from uploaded documents during calls. | Groq Llama 3.3 70B · Deepgram · Dograh · OpenAI embeddings · Node.js |
 | **AI Outreach Automation Suite** | One dashboard for Gmail, Outlook, LinkedIn and WhatsApp campaigns, with emails written by Gemini and a **vision browser agent built on Claude** that works from screenshots. | Django · Selenium · Claude Vision · Gemini |
-| **Prwebtechno Live** | Multi-tenant video API on self-hosted LiveKit, with tenant API keys, signed-webhook usage metering, wallet billing and encrypted recording storage. | Django · DRF · LiveKit · WebRTC · S3 |
-| **Fintech Platforms** | Backend of 100+ models for AEPS, DMT, BBPS, wallets, multi-level commissions, Aadhaar/DigiLocker KYC and credit bureau reports. | Django · FastAPI · Celery · Redis · PostgreSQL |
+| **Multi-tenant Video API** | Multi-tenant video API on self-hosted LiveKit, with tenant API keys, signed-webhook usage metering, wallet billing and encrypted recording storage. | Django · DRF · LiveKit · WebRTC · S3 |
+| **Fintech Platforms** ([Kwikinstape](https://kwikinstape.com/), [PaySir](https://paysir.in/), [Bharat Grow](https://bharatgrow.app/), Einspay) | Backend of 100+ models for AEPS, DMT, BBPS, wallets, multi-level commissions, Aadhaar/DigiLocker KYC and credit bureau reports. I led the 8–10 person team that built them. | Django · FastAPI · Celery · Redis · PostgreSQL |
 | **Trade Setu** | Channel-finance platform for distributors, dealers and a facilitator, covering agreements, invoices, cheques, disputes, rewards and an audit log. | FastAPI · Next.js 16 · TypeScript |
-| **Uxbridge Piano School** 🇬🇧 | App and backend for a UK school, with lessons, invoicing and reminders, live classes over LiveKit and chat. | Flutter · Django · LiveKit |
+| **Uxbridge Piano School** 🇬🇧 (freelance) | App and backend for a UK school, with lessons, invoicing and reminders, live classes over LiveKit and chat. | Flutter · Django · LiveKit |
 
 ## 🌐 Live work
 
@@ -41,7 +41,6 @@
 | Healthcare ERP (270+ data models) | [erp.bkarogyam.com](https://erp.bkarogyam.com/) |
 | Arogya Bharat, doctors and advisors portal | [arogya.bkarogyam.com](https://arogya.bkarogyam.com/) |
 | Aushadhi Healthcare, multi-vendor wellness store | [aushadhicare.com](https://aushadhicare.com/) |
-| PR Webtechno, agency website | [prwebtechno.com](https://www.prwebtechno.com/) |
 
 **📱 Apps on Google Play:**
 [Arogya Bharat](https://play.google.com/store/apps/details?id=com.arogyamadvisor) ·
@@ -95,8 +94,8 @@
 
 | Role | Company | Period |
 |---|---|---|
-| Full Stack Developer | BK Arogyam Pvt. Ltd., Varanasi | Aug 2026 – Present |
-| Software Engineer (Team Lead) | DGLYF Innovation Pvt. Ltd., Noida | Oct 2025 – May 2026 |
+| IT Head · Lead AI and Backend Engineer (team of 5) | BK Arogyam Pvt. Ltd., Varanasi | Aug 2026 – Present |
+| Software Engineer (Team Lead, 8–10 devs) | DGLYF Innovation Pvt. Ltd., Noida | Oct 2025 – May 2026 |
 | Full Stack Developer | BK Arogyam Pvt. Ltd., Varanasi | Oct 2022 – Oct 2025 |
 | Python Developer Intern | Techavera Solutions Pvt. Ltd., Noida | May 2022 – Jul 2022 |
 
@@ -104,4 +103,4 @@
 
 ---
 
-<p align="center"><i>Most of my client work lives in private repositories. Happy to walk through architecture and code on a call.</i></p>
+<p align="center"><i>Most of this is production work for employers and clients, so the source stays private. Happy to walk through architecture and code on a call.</i></p>
