@@ -26,7 +26,7 @@
 
 | Project | What it does | Stack |
 |---|---|---|
-| **Callixai** | Self-hosted AI phone agent that answers and places real calls in Hinglish and can be interrupted mid-sentence. It costs about **₹2/min**, against ₹15–20 on an ElevenLabs + Twilio + GPT stack, and includes a multi-tenant console with wallets and per-call logs. | Groq Llama 3.3 70B · Deepgram · Dograh · Node.js · Docker |
+| **[Callixai](https://callixai.prwebtechno.com/)** 🟢 live | AI voice-agent platform that answers and places real calls in Hinglish and can be interrupted mid-sentence. First audio in about **1.7 s**, priced at **₹3.50/min all-in**, with a multi-tenant agency console, wallets and per-call logs. | Groq Llama 3.3 70B · Deepgram · Dograh · Node.js · Docker |
 | **AI Outreach Automation Suite** | One dashboard for Gmail, Outlook, LinkedIn and WhatsApp campaigns, with emails written by Gemini and a **vision browser agent built on Claude** that works from screenshots. | Django · Selenium · Claude Vision · Gemini |
 | **Prwebtechno Live** | Multi-tenant video API on self-hosted LiveKit, with tenant API keys, signed-webhook usage metering, wallet billing and encrypted recording storage. | Django · DRF · LiveKit · WebRTC · S3 |
 | **Fintech Platforms** | Backend of 100+ models for AEPS, DMT, BBPS, wallets, multi-level commissions, Aadhaar/DigiLocker KYC and credit bureau reports. | Django · FastAPI · Celery · Redis · PostgreSQL |
@@ -41,7 +41,9 @@
 | Healthcare ERP (270+ data models) | [erp.bkarogyam.com](https://erp.bkarogyam.com/) |
 | Arogya Bharat, doctors and advisors portal | [arogya.bkarogyam.com](https://arogya.bkarogyam.com/) |
 | Aushadhi Healthcare, multi-vendor wellness store | [aushadhicare.com](https://aushadhicare.com/) |
-| PR Webtechno, agency website | [prwebtechno.com](https://www.prwebtechno.com/) |
+| Callixai, AI voice agents | [callixai.prwebtechno.com](https://callixai.prwebtechno.com/) |
+| PR Webtechno, AI and automation agency | [prwebtechno.com](https://www.prwebtechno.com/) |
+| PR Webtechno Mail, self-hosted mail portal | [app.prwebtechno.com](https://app.prwebtechno.com/) |
 
 **📱 Apps on Google Play:**
 [Arogya Bharat](https://play.google.com/store/apps/details?id=com.arogyamadvisor) ·
@@ -104,4 +106,4 @@
 
 ---
 
-<p align="center"><i>Most of my client work lives in private repositories. Happy to walk through architecture and code on a call.</i></p>
+<p align="center"><i>These are live, revenue-running products, so their source stays private. Happy to walk through architecture and code on a call.</i></p>
