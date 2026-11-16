@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/pritesh-prasad-242390176"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:priteshrao3@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://wa.me/message/IPNAQPOXX6FJO1?src=qr"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
+  <a href="https://wa.me/message/IPNAQPOXX6FJO1"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp"></a>
 </p>
 
 ---
@@ -55,11 +55,8 @@
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq%20%28Llama%29-F55036?style=flat-square&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG%20%26%20Agents-0F766E?style=flat-square&logoColor=white)
 
 **Backend**<br>
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
@@ -99,9 +96,9 @@
 | Full Stack Developer | BK Arogyam Pvt. Ltd., Varanasi | Oct 2022 – Oct 2025 |
 | Python Developer Intern | Techavera Solutions Pvt. Ltd., Noida | May 2022 – Jul 2022 |
 | Email Marketing Specialist, then Python Developer Intern | Svsystechonline | 2019 – Feb 2022 |
-| Digital Marketing Specialist | Ecrulogic Technologies | 2018 – 2019 |
+| Digital Marketing Specialist | Ecrologic Technologies Pvt. Ltd. | 2018 – 2019 |
 
-🎓 **B.Tech**, J.S. University (2022) · **Diploma in Computer Science**, Allahabad College of Engineering and Management (2017)
+🎓 **B.Tech in Computer Science**, J.S. University (2022) · **Diploma in Computer Science**, Allahabad College of Engineering and Management (2017)
 
 ---
 
