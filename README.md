@@ -1,5 +1,5 @@
 <h1 align="center">Hi, I'm Pritesh Prasad 👋</h1>
-<h3 align="center">AI Engineer (LLM &amp; Voice AI) · Python Backend Developer</h3>
+<h3 align="center">Applied AI Engineer (LLM Agents &amp; Voice AI) · Python Backend Developer</h3>
 
 <p align="center">
   I build AI products that run in production: phone agents, browser agents and real-time video,<br>
